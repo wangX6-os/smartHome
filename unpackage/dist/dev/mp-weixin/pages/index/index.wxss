@@ -1,0 +1,81 @@
+
+#title{
+	width: 750rpx;
+	height: 120rpx;
+	background-color: #dc3f44;
+	text-align: center;
+	line-height: 140rpx;
+	font-size: 60rpx;
+	font-weight: 700;
+	color: white;
+}
+#phoneNumberD {
+	width: 750rpx;
+	height: 80rpx;
+	/* background-color: #4CD964; */
+	font-size: 35rpx;
+	line-height: 90rpx;
+	margin-top: 15%;
+	padding-left: 60rpx;
+}
+#phoneNumberI{
+	width: 680rpx;
+	height: 120rpx;
+	margin: 0 50rpx;
+	border: 2rpx solid #dc3f44;
+	border-radius: 16rpx;
+	box-sizing: border-box;
+	font-size: 50rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#phoneNumberI input{
+	width: 95%;
+	height: 90%;
+}
+#checkClick{
+	width: 700rpx;
+	height: 50rpx;
+	padding: 10rpx 0;
+	margin: 30rpx 10rpx;
+	color: blue;
+	font-size: 30rpx;
+	text-align: right;
+}
+#checks {
+	width: 650rpx;
+	height: 200rpx;
+	/* background-color: #3F536E; */
+	margin: 0 50rpx;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+#checks view{
+	display: flex;
+	width: 120rpx;
+	height: 150rpx;
+	background-color: #FFF;
+	border-radius: 10rpx;
+	box-shadow: 0 0 10rpx #dc3f44;
+}
+#checks view input {
+	width: 100rpx;
+	height: 100rpx;
+	/* background-color: #2C405A; */
+	margin: 25rpx 10rpx;
+	border-bottom: 6rpx solid #dc3f44;
+	font-size: 60rpx;
+	padding-left: 33rpx;
+}
+#login {
+	width: 650rpx;
+	height: 120rpx;
+	font-size: 50rpx;
+	background-color: #24324a;
+	color: white;
+	margin-top: 20%;
+}
+

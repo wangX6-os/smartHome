@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/device/device",
+    "pages/index/index",
+    "pages/mall/mall",
+    "pages/place/place",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/device/device",
+        "iconPath": "static/tabbar/person.png",
+        "selectedIconPath": "static/tabbar/personA.png",
+        "text": "设备"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "static/tabbar/person.png",
+        "selectedIconPath": "static/tabbar/personA.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/place/place",
+        "iconPath": "static/tabbar/service.png",
+        "selectedIconPath": "static/tabbar/serviceA.png",
+        "text": "场景"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/alert.png",
+        "selectedIconPath": "static/tabbar/alertA.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

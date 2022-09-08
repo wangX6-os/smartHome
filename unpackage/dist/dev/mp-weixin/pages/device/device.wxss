@@ -1,0 +1,113 @@
+
+#frame {
+	width: 100%;
+}
+#head {
+	width: 100%;
+	height: 80rpx;
+}
+.info {
+	width: 300rpx;
+	height: 100%;
+	float: left;
+	margin: 0 50rpx;
+	line-height: 80rpx;
+	text-align: left;
+	font-size: 25rpx;
+}
+.operation {
+	width: 200rpx;
+	height: 100%;
+	float: right;
+	margin: 0 20rpx;
+}
+.operation .addDeivce {
+	width: 60rpx;
+	height: 60rpx;
+	float: right;
+	margin: 10rpx 20rpx;
+	float: right;
+	font-size: 50rpx;
+	line-height: 60rpx;
+	text-align: center;
+}
+.devices{
+	width: 100%;
+}
+.device{
+	width: 30%;
+	height: 340rpx;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 1.5%;
+	border-radius: 16rpx;
+	box-shadow: 0 0 5rpx #a1a1a1;
+	background-color: white;
+}
+.devices .deviceAc {
+	background-color: beige;
+}
+.device .icon{
+	width: 100rpx;
+	height: 100rpx;
+	margin: 10rpx auto;
+	margin-top: 60rpx;
+}
+.icon ._img {
+	width: 100%;
+	height: 100%;
+}
+.device text {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 24rpx;
+}
+.device .switch {
+	width: 100%;
+	height: 100rpx;
+	margin-top: 30rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.switch switch {
+	/* display: block; */
+	margin: 20rpx auto;
+	-webkit-transform: scale(0.5);
+	        transform: scale(0.5);
+}
+.scrollX{
+	width: 100%;
+	white-space: nowrap;
+	height: 200rpx;
+}
+.scrollX .room {
+	display: inline-block;
+	width: 190rpx;
+	height: 170rpx;
+	margin: 5px;
+	border-radius: 10rpx;
+	overflow: hidden;
+	box-shadow: 0 0 3rpx #e1e1e1;
+}
+.room ._img {
+	display: block;
+	width: 100rpx;
+	height: 100rpx;
+	margin: 10rpx auto;
+}
+.room text {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 25rpx;
+}
+.roomActive {
+	background-color: #34495e;
+}
+.room .textActive {
+	color: white;
+}
+

@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/device/device",
+			"style": {
+				"navigationBarTitleText": "智慧家居"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智能家居"
+			}
+		},
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/place/place",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+		{
+			"pagePath": "pages/device/device",
+			"iconPath": "static/tabbar/person.png",
+			"selectedIconPath": "static/tabbar/personA.png",
+			"text": "设备"
+		},
+		{
+	        "pagePath": "pages/mall/mall",
+	        "iconPath": "static/tabbar/person.png",
+	        "selectedIconPath": "static/tabbar/personA.png",
+	        "text": "商城"
+	    },
+		{
+		    "pagePath": "pages/place/place",
+		    "iconPath": "static/tabbar/service.png",
+		    "selectedIconPath": "static/tabbar/serviceA.png",
+		    "text": "场景"
+		},
+		{
+		    "pagePath": "pages/my/my",
+		    "iconPath": "static/tabbar/alert.png",
+		    "selectedIconPath": "static/tabbar/alertA.png",
+		    "text": "我的"
+		}]
+	}
+}
